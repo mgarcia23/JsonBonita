@@ -1,0 +1,1148 @@
+{
+    "id": 1,
+    "name": "Producción de Materia Prima",
+    "containerDTOSet": [
+        {
+            "id": 1,
+            "name": "Vendimia",
+            "participantId": null,
+            "auditProcessId": 1,
+            "auditTaskDTOSet": [
+                {
+                    "id": 1,
+                    "name": "Preparación de la Tierra",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 1,
+                            "name": "Identificación del predio",
+                            "auditTaskId": 1,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 1,
+                                    "name": "Identificación del predio en que está ubicada la viña",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Código de inscripción de la viña (según reglamentación de la autoridad competente)",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 3,
+                                    "name": "Localización, incluyendo provincia, zona y departamento",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 4,
+                                    "name": "Identificación de las cepas que integran el viñedo",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 5,
+                                    "name": "Identificación de cepas por cuarteles",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 6,
+                                    "name": "Superficie que ocupa cada cuartel",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 7,
+                                    "name": "Tipo de conducción, año de plantación",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 8,
+                                    "name": "Dirección (calle y número)",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 9,
+                                    "name": "Localidad",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 10,
+                                    "name": "Código postal",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 11,
+                                    "name": "Geolocalización",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 12,
+                                    "name": "Teléfofalse, fax y correo electrónico",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 13,
+                                    "name": "Razón social o falsembre del propietario",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 14,
+                                    "name": "Fecha de inicio de actividades",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                },
+                                {
+                                    "id": 15,
+                                    "name": "CUIT del propietario",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Uso de Agroquimicos",
+                            "auditTaskId": 1,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 16,
+                                    "name": "Identificación del fabricante del producto",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 17,
+                                    "name": "falsembre del ingrediente activo",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 18,
+                                    "name": "Dotrues aplicada",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 19,
+                                    "name": "Identificación de los cuarteles a los cuales se aplicó",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 20,
+                                    "name": "Identificación de la persona que recomendó la aplicación",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 21,
+                                    "name": "Fecha de aplicación",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 22,
+                                    "name": "Fecha estimada de cosecha",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 23,
+                                    "name": "Período de carencia establecido por los fabricantes del producto",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 24,
+                                    "name": "Método de aplicación",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 25,
+                                    "name": "Identificación del personal que preparó y aplicó el producto",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 26,
+                                    "name": "Rótulo y número de lote",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 27,
+                                    "name": "Tiempo de reingreso de los trabajadores al lote",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 28,
+                                    "name": "Registro de maquinaria",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 2
+                                },
+                                {
+                                    "id": 29,
+                                    "name": "Motivo de la Aplicación (preventiva o curativa)",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 2
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Calidad microbiológica del agua utilizada en la aplicación de agroquímicos",
+                            "auditTaskId": 1,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 32,
+                                    "name": "Identificación de la fuente del agua empleada",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 3
+                                },
+                                {
+                                    "id": 33,
+                                    "name": "Identificación del laboratorio exterfalse",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 3
+                                },
+                                {
+                                    "id": 30,
+                                    "name": "Resultado del análitrues de agua",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 3
+                                },
+                                {
+                                    "id": 31,
+                                    "name": "Fecha del análitrues",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 3
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Preparación de Plantas",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 4,
+                            "name": "Uso de Agroquímicos",
+                            "auditTaskId": 2,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 34,
+                                    "name": "Identificación del fabricante del producto",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 35,
+                                    "name": "falsembre del ingrediente activo",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 36,
+                                    "name": "Dotrues aplicada",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 37,
+                                    "name": "Identificación de los cuarteles a los cuales se aplicó",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 38,
+                                    "name": "Identificación de la persona que recomendó la aplicación",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 39,
+                                    "name": "Antigüedad de la planta de vid",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 40,
+                                    "name": "Fecha de aplicación",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 41,
+                                    "name": "Fecha estimada de cosecha",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 42,
+                                    "name": "Período de carencia establecido por los fabricantes del producto",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 43,
+                                    "name": "Método de aplicación",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 44,
+                                    "name": "Identificación del personal que preparó y aplicó el producto",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 45,
+                                    "name": "Rótulo y número de lote",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 46,
+                                    "name": "Tiempo de reingreso de los trabajadores al lote",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 47,
+                                    "name": "Registro de maquinaria",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 4
+                                },
+                                {
+                                    "id": 48,
+                                    "name": "Motivo de la Aplicación (preventiva o curativa)",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 4
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "name": "Calidad microbiológica del agua utilizada en la aplicación de agroquímicos",
+                            "auditTaskId": 2,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 49,
+                                    "name": "Identificación de la fuente del agua empleada",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 5
+                                },
+                                {
+                                    "id": 50,
+                                    "name": "Resultado del análitrues de agua",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 5
+                                },
+                                {
+                                    "id": 51,
+                                    "name": "Fecha del análitrues",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 5
+                                },
+                                {
+                                    "id": 52,
+                                    "name": "Identificación del laboratorio exterfalse",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Preparación para Riego",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 6,
+                            "name": "Calidad microbiológica del agua utilizada para el riego",
+                            "auditTaskId": 3,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 53,
+                                    "name": "Identificación de la fuente del agua empleada",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 6
+                                },
+                                {
+                                    "id": 54,
+                                    "name": "Resultado del análitrues de agua",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 6
+                                },
+                                {
+                                    "id": 55,
+                                    "name": "Fecha del análitrues",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 6
+                                },
+                                {
+                                    "id": 56,
+                                    "name": "Identificación del laboratorio exterfalse",
+                                    "required": true,
+                                    "weightingId": 5,
+                                    "weighting": {
+                                        "id": 5,
+                                        "value": 5
+                                    },
+                                    "categoryAttributeId": 6
+                                },
+                                {
+                                    "id": 57,
+                                    "name": "Método de riego",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Plantación de Vid",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 7,
+                            "name": "Identificación del predio",
+                            "auditTaskId": 4,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 64,
+                                    "name": "Dirección (calle y número)",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 65,
+                                    "name": "Localidad",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 66,
+                                    "name": "Código postal",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 67,
+                                    "name": "Teléfofalse, fax y correo electrónico",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 68,
+                                    "name": "Razón social o falsembre del propietario",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 69,
+                                    "name": "Fecha de inicio de actividades",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 70,
+                                    "name": "CUIT del propietario",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 58,
+                                    "name": "Identificación del predio en que está ubicada la viña",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 59,
+                                    "name": "Código de inscripción de la viña (según reglamentación de la autoridad competente)",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 60,
+                                    "name": "Localización, incluyendo provincia, zona y departamento",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 61,
+                                    "name": "Identificación de cepas que integran el viñedo, cuarteles y superficie que ocupa cada ufalse",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 62,
+                                    "name": "Tipo de conducción",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 7
+                                },
+                                {
+                                    "id": 63,
+                                    "name": "Año de plantación",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 7
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Análisis de Madurez",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 8,
+                            "name": "Determinación de la madurez",
+                            "auditTaskId": 5,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 71,
+                                    "name": "Datos de determinación de madurez vitícola",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 8
+                                },
+                                {
+                                    "id": 72,
+                                    "name": "Datos de determinación de madurez fefalselógica",
+                                    "required": true,
+                                    "weightingId": 4,
+                                    "weighting": {
+                                        "id": 4,
+                                        "value": 4
+                                    },
+                                    "categoryAttributeId": 8
+                                },
+                                {
+                                    "id": 73,
+                                    "name": "Datos de determinación de madurez industrial",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 8
+                                },
+                                {
+                                    "id": 74,
+                                    "name": "Datos de determinación de madurez efalselógica",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "Cosecha",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 9,
+                            "name": "Identificación de los lotes de cosecha",
+                            "auditTaskId": 6,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 75,
+                                    "name": "Defalseminación de la finca",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 76,
+                                    "name": "Razón social",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 77,
+                                    "name": "CUIT del propietario",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 78,
+                                    "name": "Fecha de inicio de actividades",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 79,
+                                    "name": "Número o código del lote de cosecha CIU",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 80,
+                                    "name": "Cepa Variedad",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 81,
+                                    "name": "Número de viñedo",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 82,
+                                    "name": "Número o código del cuartel de la finca",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 83,
+                                    "name": "Fecha de cosecha",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 84,
+                                    "name": "Tipo de cosecha utilizada (manual diurna, manual falsecturfalse, mecanizado)",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 85,
+                                    "name": "Peso en kg de cada lote (peso neto y tara del camión)",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 86,
+                                    "name": "Tipo de envase caja, bin o granel",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 87,
+                                    "name": "Datos del transporte: patente, datos del conductor",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 88,
+                                    "name": "Grados baumé de la uva",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 89,
+                                    "name": "Estado sanitario de las uvas (porcentaje de las bayas afectadas por Botrytis cinerea, oidio y/u otras especies fúngicas), según procedimientos de la organización. true trae hojas.",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 9
+                                },
+                                {
+                                    "id": 90,
+                                    "name": "Temperatura de cosecha",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 9
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "Traslado de Uva",
+                    "containerId": 1,
+                    "categoryAttributeDTOSet": [
+                        {
+                            "id": 10,
+                            "name": "Traslado de materia prima",
+                            "auditTaskId": 7,
+                            "attributeCompleteDTOSet": [
+                                {
+                                    "id": 96,
+                                    "name": "Capacidad de carga del vehículo de transporte",
+                                    "required": false,
+                                    "weightingId": null,
+                                    "weighting": null,
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 97,
+                                    "name": "Tipo de carrocería del vehículo de transporte (plataforma, carrocería abierta, furgón, otro)",
+                                    "required": true,
+                                    "weightingId": 5,
+                                    "weighting": {
+                                        "id": 5,
+                                        "value": 5
+                                    },
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 98,
+                                    "name": "Número y copia de guía de despacho, la cual debe incluir la información solicitada por INV ",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 91,
+                                    "name": "Número o código del lote de cosecha",
+                                    "required": true,
+                                    "weightingId": 1,
+                                    "weighting": {
+                                        "id": 1,
+                                        "value": 1
+                                    },
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 92,
+                                    "name": "Fecha y hora de despacho",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 93,
+                                    "name": "Identificación del destinatario al que se remite el lote de cosecha",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 94,
+                                    "name": "Tipo de envases, capacidad y número en que se despacha el lote de cosecha",
+                                    "required": true,
+                                    "weightingId": 2,
+                                    "weighting": {
+                                        "id": 2,
+                                        "value": 2
+                                    },
+                                    "categoryAttributeId": 10
+                                },
+                                {
+                                    "id": 95,
+                                    "name": "Patente del vehículo de transporte",
+                                    "required": true,
+                                    "weightingId": 3,
+                                    "weighting": {
+                                        "id": 3,
+                                        "value": 3
+                                    },
+                                    "categoryAttributeId": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
